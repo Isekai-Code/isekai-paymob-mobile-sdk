@@ -12,6 +12,7 @@ buildscript {
         mavenCentral()
     }
     dependencies {
+    	implementation 'com.paymob.sdk:Paymob-SDK:1.3.0'
         classpath("com.android.tools.build:gradle")
         classpath("com.facebook.react:react-native-gradle-plugin")
         classpath("org.jetbrains.kotlin:kotlin-gradle-plugin")
